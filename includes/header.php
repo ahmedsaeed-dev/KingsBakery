@@ -63,10 +63,10 @@ Development Start Date: July 15, 2019 -->
 						<nav id="nav-menu-container">
 							<ul class="nav-menu">
 							  <li class="menu-active"><a href="index.php">Home</a></li>
-							  <li><a href="about.php">About</a></li>
 							  <li><a href="menu.php">Menu</a></li>
 							  <li><a href="market.php">Market</a></li>
 							  <li><a href="meat.php">Meat</a></li>
+							  <li><a href="about.php">About Us</a></li>
 							  <li><a href="team.php">Team</a></li>
 							  <!-- <li class="menu-has-children"><a href="">Blog</a>
 							    <ul>

@@ -6,7 +6,7 @@
 							<div class="single-footer-widget">
 								<h6>About Us</h6>
 								<p>
-									If you own an Iphone, you’ve probably already worked out how much fun it is to use it to watch movies-it has that.
+								We specialize in mediterranean gourmet flat breads and sandwiches! We are known for our phenomenal shawarmas and Manou-wiches (cheese bread sandwiches)!
 								</p>							
 							</div>
 						</div>
@@ -39,7 +39,7 @@
 						</div>	
 						<div class="col-lg-12">
 							<p class="footer-text">
-								Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</a>
+								Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved</a>
 							</p>								
 						</div>						
 					</div>
