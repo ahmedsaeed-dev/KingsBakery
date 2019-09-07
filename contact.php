@@ -4,7 +4,7 @@ include('includes/header.php');
 ?>
 
 <!-- start banner Area -->
-<?php 
+<?php
 $Link_title = "Contact Us";
 $Link_ref = "contact.php";
 $Link_name = "Contact Us";
@@ -52,7 +52,7 @@ include('includes/nonindex-banner.php');
 							</ul>
 						</div>
 						<style>
-							
+
 						</style>
 						<script>
 							//------- Date Highlighter on Contact Page --------//  

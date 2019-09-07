@@ -13,7 +13,7 @@ include('includes/nonindex-banner.php');
 <!-- End banner Area -->
 
 <!-- Start menu-list Area -->
-<?php include('includes/meat-items.php'); ?>
+<?php include('includes/components/meat-items.php'); ?>
 <!-- End menu-list Area -->
 
 
