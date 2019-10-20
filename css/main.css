@@ -2960,7 +2960,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer-text {
-    padding-top: 20px
+    padding-top: 20px;
+    text-align: center;
 }
 
 .footer-text a,

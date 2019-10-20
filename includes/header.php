@@ -50,9 +50,10 @@ include_once('core/init.php');
 				<div class="row align-items-center">
 					<div class="col-lg-6 col-sm-6 col-4 header-top-left no-padding">
 						<div class="menu-social-icons">
-							<a href="https://www.facebook.com/Kings-Bakery-323090631127671/" target="blank_"><i class="fa fa-facebook"></i></a>
-							<a href="https://www.instagram.com/kings_bakery/" target="blank_"><i class="fa fa-instagram"></i></a>
-							<a href="https://www.yelp.com/biz/kings-bakery-dearborn" target="blank_"><i class="fa fa-yelp"></i></a>
+							<a href="https://www.facebook.com/Kings-Bakery-323090631127671/" target="blank_"><i class="fa fa-facebook fa-lg"></i></a>
+							<a href="https://www.instagram.com/kings_bakery/" target="blank_"><i 				class="fa fa-instagram fa-lg"></i></a>
+							<a href="https://snapchat.com/add/kings_bakery" target="blank_"><i 					class="fa fa-snapchat fa-lg"></i></a>
+							<a href="https://www.yelp.com/biz/kings-bakery-dearborn" target="blank_"><i 		class="fa fa-yelp fa-lg"></i></a>
 						</div>
 					</div>
 					<div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">

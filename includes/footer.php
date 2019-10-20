@@ -29,15 +29,17 @@
 						<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
 							<div class="single-footer-widget">
 								<h6>Follow Us</h6>
-								<p>Follow us on social media</p>
+								<p>Follow our social media</p>
 								<div class="footer-social d-flex align-items-center">
-								<a href="https://www.facebook.com/Kings-Bakery-323090631127671/" target="blank_"><i class="fa fa-facebook"></i></a>
-								<a href="https://www.instagram.com/kings_bakery/" target="blank_"><i class="fa fa-instagram"></i></a>
-								<a href="https://www.yelp.com/biz/kings-bakery-dearborn" target="blank_"><i class="fa fa-yelp"></i></a>
+									<a href="https://www.facebook.com/Kings-Bakery-323090631127671/" target="blank_"><i class="fa fa-facebook 	fa-2x"></i></a>
+									<a href="https://www.instagram.com/kings_bakery/" target="blank_"><i 				class="fa fa-instagram 	fa-2x"></i></a>
+									<a href="https://snapchat.com/add/kings_bakery" target="blank_"><i 					class="fa fa-snapchat 	fa-2x"></i></a>
+									<a href="https://www.yelp.com/biz/kings-bakery-dearborn" target="blank_"><i 		class="fa fa-yelp 		fa-2x"></i></a>
 								</div>
 							</div>
 						</div>	
 						<div class="col-lg-12">
+							<br><br>
 							<p class="footer-text">
 								Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved</a>
 							</p>								
