@@ -1,13 +1,16 @@
 <?php
 $pageTitle = "Home";
 include('includes/header.php');
+
 ?>
 
 <!-- start banner Area -->
 <section class="banner-area relative" id="home">
-	<div class="overlay overlay-bg"></div>
+	<div class="overlay overlay-bg">
+	</div>
 	<div class="container">
 		<div class="row fullscreen d-flex justify-content-center align-items-center">
+			
 			<div class="banner-content col-lg-10 col-md-12 justify-content-center">
 				<h6 class="text-uppercase">Middle eastern cuisine and grocery</h6>
 				<h1>

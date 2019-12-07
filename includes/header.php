@@ -1,12 +1,11 @@
-<!-- University of Michigan Dearborn's Senior Capstone for Software Engineering Students
-Project:	King's Bakery LLC Website
-Developers: Ahmed Saeed, Billal Asoufy, Khansa Alhaidi, Annan Qayed
-Development Start Date: July 15, 2019 -->
+<!-- 
+Project:	CIS 435 - Term Project 
+Developer: 	Ahmed L Saeed
+Development Start Date: October 22, 2019 -->
 
 <?php 
-
-include_once('core/init.php');
-
+	include_once('core/init.php');
+	session_start();
 ?>
 
 <!DOCTYPE html>
@@ -57,12 +56,16 @@ include_once('core/init.php');
 						</div>
 					</div>
 					<div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
-						<a class="btns" href="tel:+1313 551 3027"><span class="lnr lnr-phone-handset"></span>
+						<a class="btns" href="tel:+1313 551 3027"><i class="fa fa-phone"></i>
 							+(313) 551-3027
 						</a>
-						<a class="btns" href="mailto:kingsbakerydearborn@gmail.com"><span class="lnr lnr-envelope"></span>
-							KingsBakeryDearborn@gmail.com
-						</a>
+						<a class="btns" href="mailto:kingsbakerydearborn@gmail.com"><i class="fa fa-envelope"></i> KingsBakeryDearborn@gmail.com</a>
+						<?php 
+						if ( isset( $_SESSION['user'] ) ) {
+							?><a class="btns" href="login.php"><i class="fa fa-cogs"></i> Admin Portal</a><?php
+						} else {
+							?><a class="btns" href="login.php"><i class="fa fa-cogs"></i> Log In</a><?php
+						} ?>
 					</div>
 				</div>
 			</div>
@@ -83,4 +86,4 @@ include_once('core/init.php');
 				</nav><!-- #nav-menu-container -->
 			</div>
 		</div>
-	</header><!-- #header -->
+		</header><!-- #header -->
