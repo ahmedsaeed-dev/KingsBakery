@@ -11,10 +11,7 @@ function printItems($conn, $type){
 			$prices = explode(';', $row['pricing']); ?>
 			<div class="single-menu-list row justify-content-between align-items-center">
 				<div class="col-lg-9">
-					<!-- data-name = '<?=$row['name'];?>'
-						data-description = '<?=$row['description'];?>' 
-					-->
-					<a id="view_modal_link" class="view_modal" data-name='<?=$row['name'];?>' data-img="https://upload.wikimedia.org/wikipedia/commons/f/f9/Phoenicopterus_ruber_in_S%C3%A3o_Paulo_Zoo.jpg" data-description='description' onclick="document.getElementById('view_modal').style.display = 'block';" href="#"><h4><?=$row['name'];?></h4></a>
+					<a href="#"><h4><?=$row['name'];?></h4></a>
 					<p><?=$row['description'];?></p>
 				</div>
 				<div class="col-lg-3 flex-row d-flex price-size">
@@ -138,88 +135,3 @@ function printItems($conn, $type){
 		</div>
 	</div>	
 </section>
-
-
- <!-- View Modal -->
- <div id="view_modal" class="modal" style="display: none">
- 	<div class="vertical-alignment-helper"> 
-		<div class="modal-dialog vertical-align-center">
-			<!-- Modal content-->
-			<div class="modal-content">
-				<div class="modal-header">
-					<div id="modal-item-name"></div>
-					<button type="button" class="close" onclick="document.getElementById('view_modal').style.display = 'none'; sessionStorage.clear();" data-dismiss="modal">&times;</button>
-				</div>
-				<div class="modal-body">
-					<div id="modal-item-img"></div>
-				</div>
-				<div class="modal-footer">
-					<button type="button" onclick="document.getElementById('view_modal').style.display = 'none'; sessionStorage.clear();" class="btn btn-default" >Close</button>
-				</div>
-			</div>    
-		</div>
-	</div>
-</div>
-
-<style>
-
-img {
-    max-width:100%;
-}
-body.modal-open {
-    overflow: visible;
-}
-.vertical-alignment-helper {
-    display:table;
-    height: 100%;
-    width: 100%;
-    pointer-events:none; /* This makes sure that we can still click outside of the modal to close it */
-}
-.vertical-align-center {
-    /* To center vertically */
-    display: table-cell;
-    vertical-align: middle;
-    pointer-events:none;
-}
-.modal-content {
-    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
-    width:inherit;
-    max-width:inherit; /* For Bootstrap 4 - to avoid the modal window stretching full width */
-    height:inherit;
-    /* To center horizontally */
-    margin: 0 auto;
-    pointer-events: all;
-}</style>
-
-<script>
-document.getElementById("view_modal_link").addEventListener("click", function() {
-	sessionStorage.setItem("name", $(this).data('name'));
-	sessionStorage.setItem("img", $(this).data('img'));
-
-	var modal_name = sessionStorage.getItem('name');
-	$('#modal-item-name').html(modal_name);
-	
-	var img = document.createElement("img");
-	img.src = sessionStorage.getItem('img');
-	var src = document.getElementById("modal-item-img");
-	src.appendChild(img);
-
-});
-
-
-	// $('.view_modal').click(function () {
-    // // Store curent record to session storage
-    // sessionStorage.setItem("name", $(this).data('name'));
-    // sessionStorage.setItem("description", $(this).data('description'));
-   
-    // // var modal_name = sessionStorage.getItem('name');
-    // // $('#modal_name').html(modal_name);
-	
-    // // var modal_description = sessionStorage.getItem('description');
-    // // $('#modal_description').html(modal_description);
-
-// });
-
-
-
-</script>
